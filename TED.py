@@ -3,6 +3,7 @@ glossário={'Algoritmos':'um conjunto das regras e procedimentos lógicos perfei
 'Lógica de Programação':'a técnica de encadear pensamentos para atingir determinado objetivo','Processador':'um hardware que processa informações relacionadas ao computador','Cooler':'hardware que resfria o processador'}
 for i in glossário:
     
+    sleep(2)
     print('\n')
     print(f'{i} é {glossário[i]}')
 
